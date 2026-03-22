@@ -1,0 +1,377 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//UQ Seminar Calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Physics colloquium
+BEGIN:VTIMEZONE
+TZID:Australia/Brisbane
+BEGIN:STANDARD
+DTSTART:19700101T000000
+TZNAME:AEST
+TZOFFSETFROM:+1000
+TZOFFSETTO:+1000
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+SUMMARY:Time Reversal Symmetry Breaking in Superconductors — Professor J
+ ames Annett (University of Bristol)
+DTSTART;TZID=Australia/Brisbane:20260323T110000
+DTEND;TZID=Australia/Brisbane:20260323T120000
+DTSTAMP:20260322T074900Z
+UID:17611-20260323@uq-seminar-calendar
+SEQUENCE:0
+DESCRIPTION:https://smp.uq.edu.au/event/session/17611
+LOCATION:Physics Annexe (06)\, Room: 407
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:TBA — Professor Sonja Franke-Arnold (University of Glasgow)
+DTSTART;TZID=Australia/Brisbane:20260326T110000
+DTEND;TZID=Australia/Brisbane:20260326T120000
+DTSTAMP:20260322T074900Z
+UID:17612-20260326@uq-seminar-calendar
+SEQUENCE:0
+DESCRIPTION:https://smp.uq.edu.au/event/session/17612
+LOCATION:Building 69\, Room: 208
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:TBA — Giovanni Pierobon (University of NSW)
+DTSTART;TZID=Australia/Brisbane:20260327T110000
+DTEND;TZID=Australia/Brisbane:20260327T120000
+DTSTAMP:20260322T074900Z
+UID:17537-20260327@uq-seminar-calendar
+SEQUENCE:0
+DESCRIPTION:https://smp.uq.edu.au/event/session/17537
+LOCATION:Building 69\, Room: 305
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Momentum and mass entanglement with ultracold metastable helium at
+ oms — Dr Sean Hodgman (The Australian National University)
+DTSTART;TZID=Australia/Brisbane:20260417T110000
+DTEND;TZID=Australia/Brisbane:20260417T120000
+DTSTAMP:20260322T074900Z
+UID:17613-20260417@uq-seminar-calendar
+SEQUENCE:0
+DESCRIPTION:https://smp.uq.edu.au/event/session/17613
+LOCATION:Physiology Lecture Theatres\, Room: 358
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:TBA — Dr Jade Powell (Swinburne University)
+DTSTART;TZID=Australia/Brisbane:20260424T110000
+DTEND;TZID=Australia/Brisbane:20260424T120000
+DTSTAMP:20260322T074900Z
+UID:17614-20260424@uq-seminar-calendar
+SEQUENCE:0
+DESCRIPTION:https://smp.uq.edu.au/event/session/17614
+LOCATION:Physiology Lecture Theatres\, Room: 358
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Amelia Frank / Superconductivity — Dr Peter Jacobson (University
+  of Queensland)
+DTSTART;TZID=Australia/Brisbane:20260501T110000
+DTEND;TZID=Australia/Brisbane:20260501T120000
+DTSTAMP:20260322T074900Z
+UID:17538-20260501@uq-seminar-calendar
+SEQUENCE:0
+DESCRIPTION:https://smp.uq.edu.au/event/session/17538
+LOCATION:Building 69\, Room: 305
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Extending density functional theory — Associate Professor Tim Go
+ uld (Griffith University)
+DTSTART;TZID=Australia/Brisbane:20260508T110000
+DTEND;TZID=Australia/Brisbane:20260508T120000
+DTSTAMP:20260322T074900Z
+UID:17539-20260508@uq-seminar-calendar
+SEQUENCE:0
+DESCRIPTION:https://smp.uq.edu.au/event/session/17539
+LOCATION:Physiology Lecture Theatres (63)\, Room: 358
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:TBA — Associate Professor James Roberts (QIMR Berghofer)
+DTSTART;TZID=Australia/Brisbane:20260515T110000
+DTEND;TZID=Australia/Brisbane:20260515T120000
+DTSTAMP:20260322T074900Z
+UID:17540-20260515@uq-seminar-calendar
+SEQUENCE:0
+DESCRIPTION:https://smp.uq.edu.au/event/session/17540
+LOCATION:Physiology Lecture Theatres (63)\, Room: 358
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Quantum Communication: How Physics Can Secure Information — Dr. 
+ Josephine Dias (University of Queensland)
+DTSTART;TZID=Australia/Brisbane:20260522T110000
+DTEND;TZID=Australia/Brisbane:20260522T120000
+DTSTAMP:20260322T074900Z
+UID:17541-20260522@uq-seminar-calendar
+SEQUENCE:0
+DESCRIPTION:https://smp.uq.edu.au/event/session/17541
+LOCATION:Hawken Engineering Building (50)\, Room: N202
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Label-free and quantum imaging — Professor Irina Kabakova (Unive
+ rsity of Technology Sydney)
+DTSTART;TZID=Australia/Brisbane:20260529T110000
+DTEND;TZID=Australia/Brisbane:20260529T120000
+DTSTAMP:20260322T074900Z
+UID:17542-20260529@uq-seminar-calendar
+SEQUENCE:0
+DESCRIPTION:https://smp.uq.edu.au/event/session/17542
+LOCATION:Hawken Engineering Building (50)\, Room: N202
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Helping Physics students thrive — Professor Elizabeth Angstmann 
+ (University of NSW)
+DTSTART;TZID=Australia/Brisbane:20260320T110000
+DTEND;TZID=Australia/Brisbane:20260320T120000
+DTSTAMP:20260322T074900Z
+UID:17536-20260320@uq-seminar-calendar
+SEQUENCE:0
+DESCRIPTION:https://smp.uq.edu.au/event/session/17536
+LOCATION:Building 69\, Room: 305
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Harnessing time-frequency qudits using integrated nonlinear proces
+ ses — Dr Laura Serino (University of Queensland)
+DTSTART;TZID=Australia/Brisbane:20260313T110000
+DTEND;TZID=Australia/Brisbane:20260313T120000
+DTSTAMP:20260322T074900Z
+UID:17535-20260313@uq-seminar-calendar
+SEQUENCE:0
+DESCRIPTION:https://smp.uq.edu.au/event/session/17535
+LOCATION:Building 69\, Room: 305
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Diamonds on the brain: Quantum sensors for next generation neurosc
+ ience — Professor Lezanne Ooi (University of Wollongong)
+DTSTART;TZID=Australia/Brisbane:20260306T110000
+DTEND;TZID=Australia/Brisbane:20260306T120000
+DTSTAMP:20260322T074900Z
+UID:17534-20260306@uq-seminar-calendar
+SEQUENCE:0
+DESCRIPTION:https://smp.uq.edu.au/event/session/17534
+LOCATION:Building 69\, Room: 305
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Electromagnetism today — Professor Dmitri Sorokin (INFN Padua\,a
+ nd Padua University\, Italy)
+DTSTART;TZID=Australia/Brisbane:20260303T110000
+DTEND;TZID=Australia/Brisbane:20260303T120000
+DTSTAMP:20260322T074900Z
+UID:17533-20260303@uq-seminar-calendar
+SEQUENCE:0
+DESCRIPTION:https://smp.uq.edu.au/event/session/17533
+LOCATION:Building 69\, Room: 208
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Cosmology: A Golden Era — Professor Yin-Zhe Ma (Stellenbosch Uni
+ versity)
+DTSTART;TZID=Australia/Brisbane:20260206T110000
+DTEND;TZID=Australia/Brisbane:20260206T120000
+DTSTAMP:20260322T074900Z
+UID:17532-20260206@uq-seminar-calendar
+SEQUENCE:0
+DESCRIPTION:https://smp.uq.edu.au/event/session/17532
+LOCATION:Parnell Building (07)\, Room: 222
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Nobel Prize in Chemistry 2025 Colloquium — Professor Ben Powell 
+ (University of Queensland)
+DTSTART;TZID=Australia/Brisbane:20251114T110000
+DTEND;TZID=Australia/Brisbane:20251114T120000
+DTSTAMP:20260322T074900Z
+UID:17507-20251114@uq-seminar-calendar
+SEQUENCE:0
+DESCRIPTION:https://smp.uq.edu.au/event/session/17507
+LOCATION:Prentice Building (42)\, Room: 216
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Nobel Prize in Physics 2025 Colloquium — Associate Professor Ark
+ ady Fedorov (University of Queensland)
+DTSTART;TZID=Australia/Brisbane:20251107T110000
+DTEND;TZID=Australia/Brisbane:20251107T120000
+DTSTAMP:20260322T074900Z
+UID:17490-20251107@uq-seminar-calendar
+SEQUENCE:0
+DESCRIPTION:https://smp.uq.edu.au/event/session/17490
+LOCATION:Prentice Building (42)\, Room 216
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Predicting nuclear\, atomic and solid-state properties of the heav
+ iest atoms — Odile Smits (University of Queensland)
+DTSTART;TZID=Australia/Brisbane:20251031T110000
+DTEND;TZID=Australia/Brisbane:20251031T120000
+DTSTAMP:20260322T074900Z
+UID:17489-20251031@uq-seminar-calendar
+SEQUENCE:0
+DESCRIPTION:https://smp.uq.edu.au/event/session/17489
+LOCATION:Parnell Building (07)\, Room: 222
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:The quantum theory of time: from T violation to Lorentz invariance
+  — Joan Vaccaro (Griffith University)
+DTSTART;TZID=Australia/Brisbane:20251024T110000
+DTEND;TZID=Australia/Brisbane:20251024T120000
+DTSTAMP:20260322T074900Z
+UID:17488-20251024@uq-seminar-calendar
+SEQUENCE:0
+DESCRIPTION:https://smp.uq.edu.au/event/session/17488
+LOCATION:Parnell Building (07)\, Room: 222
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Reproducibility and Software in Academia — Marnik Bercx (Paul Sc
+ herrer Institut)
+DTSTART;TZID=Australia/Brisbane:20251017T110000
+DTEND;TZID=Australia/Brisbane:20251017T120000
+DTSTAMP:20260322T074900Z
+UID:17487-20251017@uq-seminar-calendar
+SEQUENCE:0
+DESCRIPTION:https://smp.uq.edu.au/event/session/17487
+LOCATION:Parnell lecture theatre 7-222\, Room: 07-222
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Inertia and Inertial Resistance in Relativity Theory — Peter J. 
+ Riggs (Australian National University)
+DTSTART;TZID=Australia/Brisbane:20251010T110000
+DTEND;TZID=Australia/Brisbane:20251010T120000
+DTSTAMP:20260322T074900Z
+UID:17486-20251010@uq-seminar-calendar
+SEQUENCE:0
+DESCRIPTION:https://smp.uq.edu.au/event/session/17486
+LOCATION:TBA
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Software-ruggedised quantum sensing for secure and accurate naviga
+ tion without GPS — Stuart Szigeti (Q-CTRL)
+DTSTART;TZID=Australia/Brisbane:20250926T110000
+DTEND;TZID=Australia/Brisbane:20250926T120000
+DTSTAMP:20260322T074900Z
+UID:17485-20250926@uq-seminar-calendar
+SEQUENCE:0
+DESCRIPTION:https://smp.uq.edu.au/event/session/17485
+LOCATION:TBA
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Populations of pulsators: Asteroseismology and population synthesi
+ s as tools for stellar ages — Associate Professor Simon Murphy (Universi
+ ty of Southern Queensland)
+DTSTART;TZID=Australia/Brisbane:20250822T110000
+DTEND;TZID=Australia/Brisbane:20250822T120000
+DTSTAMP:20260322T074900Z
+UID:17460-20250822@uq-seminar-calendar
+SEQUENCE:0
+DESCRIPTION:https://smp.uq.edu.au/event/session/17460
+LOCATION:Parnell Building (07)\, Room: 222
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Investigating superconductivity for computation and communication 
+ using magnetism\, light and strain — Dr Sol H Jacobsen (Norwegian Univer
+ sity of Science and Technology)
+DTSTART;TZID=Australia/Brisbane:20250815T103000
+DTEND;TZID=Australia/Brisbane:20250815T113000
+DTSTAMP:20260322T074900Z
+UID:17455-20250815@uq-seminar-calendar
+SEQUENCE:0
+DESCRIPTION:https://smp.uq.edu.au/event/session/17455
+LOCATION:Parnell Building (07)\, Room: 222
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Theoretical investigations of the heaviest elements — Professor 
+ Anastasia Borschevsky (University of Groningen)
+DTSTART;TZID=Australia/Brisbane:20250808T110000
+DTEND;TZID=Australia/Brisbane:20250808T120000
+DTSTAMP:20260322T074900Z
+UID:17453-20250808@uq-seminar-calendar
+SEQUENCE:0
+DESCRIPTION:https://smp.uq.edu.au/event/session/17453
+LOCATION:Parnell Building (07)\, Room: 222
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Inferring properties of dark energy from the large scale structure
+  of the universe — Dr Anthony Carr (CosKASI\, Korea Astronomy and Space 
+ Science Institute)
+DTSTART;TZID=Australia/Brisbane:20250620T120000
+DTEND;TZID=Australia/Brisbane:20250620T130000
+DTSTAMP:20260322T074900Z
+UID:17417-20250620@uq-seminar-calendar
+SEQUENCE:0
+DESCRIPTION:https://smp.uq.edu.au/event/session/17417
+LOCATION:Steele Building (03)\, Room: 309
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Engineering High Performance Qubits in Superconducting Circuits 
+ — Xanthe Croot (The University of Sydney)
+DTSTART;TZID=Australia/Brisbane:20250530T110000
+DTEND;TZID=Australia/Brisbane:20250530T120000
+DTSTAMP:20260322T074900Z
+UID:17379-20250530@uq-seminar-calendar
+SEQUENCE:0
+DESCRIPTION:https://smp.uq.edu.au/event/session/17379
+LOCATION:Steele Building (03)\, Room: 309
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:TBA — Matt Reeves (CSIRO)
+DTSTART;TZID=Australia/Brisbane:20250523T110000
+DTEND;TZID=Australia/Brisbane:20250523T120000
+DTSTAMP:20260322T074900Z
+UID:17378-20250523@uq-seminar-calendar
+SEQUENCE:0
+DESCRIPTION:https://smp.uq.edu.au/event/session/17378
+LOCATION:Steel Building (03)\, Room: 309
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:All objects and some questions — Charley Lineweaver (The Austral
+ ian National University (Canberra))
+DTSTART;TZID=Australia/Brisbane:20250509T110000
+DTEND;TZID=Australia/Brisbane:20250509T120000
+DTSTAMP:20260322T074900Z
+UID:17376-20250509@uq-seminar-calendar
+SEQUENCE:0
+DESCRIPTION:https://smp.uq.edu.au/event/session/17376
+LOCATION:Steele Building (03)\, Room: 309
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Axion Dark Matter — Ciaran O'Hare (The University of Sydney)
+DTSTART;TZID=Australia/Brisbane:20250502T110000
+DTEND;TZID=Australia/Brisbane:20250502T120000
+DTSTAMP:20260322T074900Z
+UID:17375-20250502@uq-seminar-calendar
+SEQUENCE:0
+DESCRIPTION:https://smp.uq.edu.au/event/session/17375
+LOCATION:Steele Building (03)\, Room: 309
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Bringing quantum to life: the Australian Research Council Centre o
+ f Excellence in Quantum Biotechnology — Warwick Bowen (University of Que
+ ensland)
+DTSTART;TZID=Australia/Brisbane:20250411T110000
+DTEND;TZID=Australia/Brisbane:20250411T120000
+DTSTAMP:20260322T074900Z
+UID:17374-20250411@uq-seminar-calendar
+SEQUENCE:0
+DESCRIPTION:https://smp.uq.edu.au/event/session/17374
+LOCATION:Steele Building (03)\, Room: 309
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Collective behaviours in crystals of switchable molecules — Ben 
+ Powell (University of Queensland)
+DTSTART;TZID=Australia/Brisbane:20250404T110000
+DTEND;TZID=Australia/Brisbane:20250404T120000
+DTSTAMP:20260322T074900Z
+UID:17371-20250404@uq-seminar-calendar
+SEQUENCE:0
+DESCRIPTION:https://smp.uq.edu.au/event/session/17371
+LOCATION:Steele Building (03)\, Room: 309
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Quantum emission from engineered defects in hexagonal boron nitrid
+ e — Mehran Kianinia (University of Technology\, Sydney)
+DTSTART;TZID=Australia/Brisbane:20250328T110000
+DTEND;TZID=Australia/Brisbane:20250328T120000
+DTSTAMP:20260322T074900Z
+UID:17372-20250328@uq-seminar-calendar
+SEQUENCE:0
+DESCRIPTION:https://smp.uq.edu.au/event/session/17372
+LOCATION:Steele Building (03)\, Room: 309
+END:VEVENT
+END:VCALENDAR

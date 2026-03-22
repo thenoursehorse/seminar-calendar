@@ -1,6 +1,6 @@
 [project]
 name = "uq-seminar-calendar"
-version = "1.0.0"
+version = "1.0.1"
 description = "Scrapes UQ SMP seminar pages and generates .ics calendar files"
 requires-python = ">=3.12"
 dependencies = [
