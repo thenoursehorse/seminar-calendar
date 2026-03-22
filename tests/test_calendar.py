@@ -117,21 +117,17 @@ class TestGenerateIcs:
         uids = {str(v.get("UID")) for v in vevents}
         assert len(uids) == 2
 
-    def test_vtimezone_present(self):
+    def test_utc_times_no_vtimezone(self):
         events = [make_event()]
         data = generate_ics(events, "Test", DTSTAMP)
         cal = _parse_ics(data)
         vtimezones = [c for c in cal.walk() if c.name == "VTIMEZONE"]
-        assert len(vtimezones) == 1
-        tz = vtimezones[0]
-        assert str(tz.get("TZID")) == "Australia/Brisbane"
+        assert len(vtimezones) == 0
+        assert str(cal.get("X-WR-TIMEZONE")) == "UTC"
 
-        standards = [c for c in tz.walk() if c.name == "STANDARD"]
-        assert len(standards) == 1
-        std = standards[0]
-        assert std.get("TZNAME") == "AEST"
-        assert std.get("TZOFFSETFROM").td == timedelta(hours=10)
-        assert std.get("TZOFFSETTO").td == timedelta(hours=10)
+        vevent = _get_events(cal)[0]
+        assert vevent.get("DTSTART").dt.tzname() == "UTC"
+        assert vevent.get("DTEND").dt.tzname() == "UTC"
 
     def test_dtstamp_not_folded(self):
         events = [make_event()]

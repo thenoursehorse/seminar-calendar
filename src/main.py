@@ -201,8 +201,11 @@ def _apply_default_time(event: Event) -> Event:
 def _strip_dtstamp(text: str) -> str:
     unfolded = re.sub(r"\r?\n[ \t]", "", text)
     normalized = unfolded.replace("\r\n", "\n").replace("\r", "\n")
+    skip = {"DTSTAMP", "CREATED", "LAST-MODIFIED"}
     return "\n".join(
-        line for line in normalized.splitlines() if not line.startswith("DTSTAMP")
+        line
+        for line in normalized.splitlines()
+        if not any(line.startswith(prefix) for prefix in skip)
     )
 
 

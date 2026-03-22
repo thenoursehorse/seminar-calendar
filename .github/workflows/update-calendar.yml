@@ -45,7 +45,8 @@ jobs:
           def strip_dtstamp(text):
               text = re.sub(r'\r?\n[ \t]', '', text)
               text = text.replace('\r\n', '\n').replace('\r', '\n')
-              return '\n'.join(l for l in text.splitlines() if not l.startswith('DTSTAMP'))
+              skip = ('DTSTAMP', 'CREATED', 'LAST-MODIFIED')
+              return '\n'.join(l for l in text.splitlines() if not l.startswith(skip))
           try:
               old = subprocess.run(['git', 'show', f'HEAD:{f}'], capture_output=True, text=True)
               if old.returncode != 0: sys.exit(1)

@@ -1,8 +1,8 @@
 import logging
 from collections.abc import Sequence
-from datetime import datetime, timedelta
+from datetime import datetime, timezone
 
-from icalendar import Calendar, Event as IcsEvent, Timezone, TimezoneStandard
+from icalendar import Calendar, Event as IcsEvent
 
 from src.constants import PRODID, UID_DOMAIN
 from src.models import Event
@@ -19,8 +19,7 @@ def generate_ics(
     cal.add("CALSCALE", "GREGORIAN")
     cal.add("METHOD", "PUBLISH")
     cal.add("X-WR-CALNAME", calendar_name)
-
-    cal.add_component(_build_brisbane_vtimezone())
+    cal.add("X-WR-TIMEZONE", "UTC")
 
     for event in events:
         if event.start is None or event.end is None:
@@ -31,36 +30,32 @@ def generate_ics(
 
         uid = f"{event.session_id}-{event.date.strftime('%Y%m%d')}@{UID_DOMAIN}"
 
+        start_utc = event.start.astimezone(timezone.utc)
+        end_utc = event.end.astimezone(timezone.utc)
+
         ics_event = IcsEvent()
         ics_event.add("UID", uid)
         ics_event.add("DTSTAMP", dtstamp)
-        ics_event.add("DTSTART", event.start)
-        ics_event.add("DTEND", event.end)
+        ics_event.add("CREATED", dtstamp)
+        ics_event.add("LAST-MODIFIED", dtstamp)
+        ics_event.add("DTSTART", start_utc)
+        ics_event.add("DTEND", end_utc)
         ics_event.add("SUMMARY", _build_summary(event))
         ics_event.add("DESCRIPTION", _build_description(event))
         ics_event.add("SEQUENCE", 0)
+        ics_event.add("TRANSP", "OPAQUE")
 
         if event.venue:
             ics_event.add("LOCATION", event.venue)
 
         if event.cancelled:
             ics_event.add("STATUS", "CANCELLED")
+        else:
+            ics_event.add("STATUS", "CONFIRMED")
 
         cal.add_component(ics_event)
 
     return cal.to_ical()
-
-
-def _build_brisbane_vtimezone() -> Timezone:
-    tz = Timezone()
-    tz.add("TZID", "Australia/Brisbane")
-    std = TimezoneStandard()
-    std.add("DTSTART", datetime(1970, 1, 1, 0, 0, 0))
-    std.add("TZOFFSETFROM", timedelta(hours=10))
-    std.add("TZOFFSETTO", timedelta(hours=10))
-    std.add("TZNAME", "AEST")
-    tz.add_component(std)
-    return tz
 
 
 def _build_summary(event: Event) -> str:
