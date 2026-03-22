@@ -210,8 +210,6 @@ def parse_session_page(html: bytes, event: Event) -> Event:
             new_start = session_start
             new_end = session_end if session_end else session_start + timedelta(hours=1)
             new_time_unconfirmed = session_end is None
-            if session_end is not None:
-                new_time_unconfirmed = False
         else:
             warnings.append(
                 f"Session {event.session_id}: no time on session page either"

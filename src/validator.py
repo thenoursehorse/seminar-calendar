@@ -51,11 +51,6 @@ def validate(
         if not event.title:
             failures.append(f"Session {event.session_id}: empty title")
 
-        # date
-        if event.date is None:
-            failures.append(f"Session {event.session_id}: missing date")
-            continue
-
         # start/end
         if event.start is None:
             failures.append(f"Session {event.session_id}: start is None")

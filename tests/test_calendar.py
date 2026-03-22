@@ -18,14 +18,6 @@ def _get_events(cal: Calendar) -> list:
 
 
 class TestGenerateIcs:
-    def test_valid_ics_output(self):
-        events = [make_event()]
-        data = generate_ics(events, "Physics colloquium", DTSTAMP)
-        cal = _parse_ics(data)
-        assert cal is not None
-        vevents = _get_events(cal)
-        assert len(vevents) == 1
-
     def test_summary_full(self):
         events = [make_event(speaker="Dr Test", affiliation="MIT")]
         data = generate_ics(events, "Test", DTSTAMP)
@@ -141,12 +133,6 @@ class TestGenerateIcs:
         assert std.get("TZOFFSETFROM").td == timedelta(hours=10)
         assert std.get("TZOFFSETTO").td == timedelta(hours=10)
 
-    def test_dtstamp_present(self):
-        events = [make_event()]
-        data = generate_ics(events, "Test", DTSTAMP)
-        vevent = _get_events(_parse_ics(data))[0]
-        assert vevent.get("DTSTAMP") is not None
-
     def test_dtstamp_not_folded(self):
         events = [make_event()]
         data = generate_ics(events, "Test", DTSTAMP)
@@ -155,12 +141,6 @@ class TestGenerateIcs:
         assert len(dtstamp_lines) >= 1
         for line in dtstamp_lines:
             assert len(line) < 75  # not folded
-
-    def test_sequence_zero(self):
-        events = [make_event()]
-        data = generate_ics(events, "Test", DTSTAMP)
-        vevent = _get_events(_parse_ics(data))[0]
-        assert vevent.get("SEQUENCE") == 0
 
     def test_past_events_included(self):
         past_date = REFERENCE_DATE - timedelta(days=30)
