@@ -17,6 +17,7 @@ def generate_ics(
     cal.add("PRODID", PRODID)
     cal.add("VERSION", "2.0")
     cal.add("CALSCALE", "GREGORIAN")
+    cal.add("METHOD", "PUBLISH")
     cal.add("X-WR-CALNAME", calendar_name)
 
     cal.add_component(_build_brisbane_vtimezone())
