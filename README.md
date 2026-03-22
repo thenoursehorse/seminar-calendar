@@ -4,9 +4,9 @@ Scrapes UQ School of Mathematics and Physics seminar pages, generates subscribab
 
 ## Subscribe
 
-**Physics Colloquium:** `https://henryphilipps.github.io/seminar-calendar/physics-colloquium.ics`
+**Physics Colloquium:** `https://thenoursehorse.github.io/seminar-calendar/physics-colloquium.ics`
 
-See the [landing page](https://henryphilipps.github.io/seminar-calendar/) for subscription instructions.
+See the [landing page](https://thenoursehorse.github.io/seminar-calendar/) for subscription instructions.
 
 ## How it works
 

@@ -4,7 +4,7 @@ import re
 REQUEST_TIMEOUT: int = 15
 REQUEST_DELAY: float = 0.5
 MAX_RETRIES: int = 1
-USER_AGENT: str = "UQ-Seminar-Calendar/1.0 (github.com/henryphilipps/seminar-calendar)"
+USER_AGENT: str = "UQ-Seminar-Calendar/1.0 (github.com/thenoursehorse/seminar-calendar)"
 ALLOWED_DOMAIN: str = "smp.uq.edu.au"
 ALLOWED_REDIRECT_DOMAIN: str = "uq.edu.au"
 BASE_URL: str = "https://smp.uq.edu.au"
