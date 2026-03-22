@@ -1,16 +1,16 @@
-# UQ Seminar Calendar
+# UQ SMP Seminar Calendar
 
-Scrapes UQ School of Mathematics and Physics seminar pages, generates subscribable `.ics` calendar feeds, and publishes them via GitHub Pages. Updated daily.
+Scrapes UQ School of Mathematics and Physics (SMP) seminar pages, generates subscribable `.ics` calendar feeds, and publishes them via GitHub Pages. Updated daily.
 
 ## Subscribe
 
-**Physics Colloquium:** `https://thenoursehorse.github.io/seminar-calendar/physics-colloquium.ics`
-
 See the [landing page](https://thenoursehorse.github.io/seminar-calendar/) for subscription instructions.
+
+**Physics Colloquium:** `https://thenoursehorse.github.io/seminar-calendar/physics-colloquium.ics`
 
 ## How it works
 
-Fetch → Parse → Enrich → Validate → Generate ICS → Publish. Runs daily via GitHub Actions at 1pm AEST.
+Fetch main page → Parse → Enrich from session page → Validate → Generate ICS → Publish via GitHub Actions.
 
 ## Development
 
