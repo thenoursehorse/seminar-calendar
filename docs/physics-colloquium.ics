@@ -1,6 +1,6 @@
 BEGIN:VCALENDAR
 VERSION:2.0
-PRODID:-//UQ Seminar Calendar//EN
+PRODID:-//UQ SMP Seminar Calendar//EN
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
 X-WR-CALNAME:Physics colloquium
@@ -10,10 +10,10 @@ SUMMARY:Time Reversal Symmetry Breaking in Superconductors — Professor J
  ames Annett (University of Bristol)
 DTSTART:20260323T010000Z
 DTEND:20260323T020000Z
-DTSTAMP:20260322T121000Z
+DTSTAMP:20260322T130100Z
 UID:17611-20260323@uq-seminar-calendar
 SEQUENCE:0
-CREATED:20260322T121000Z
+CREATED:20260322T130100Z
 DESCRIPTION:Superconductivity is a state of matter with many unique proper
  ties. Perhaps the most well known is that superconductors repel magnetic f
  ields (Meissner effect)\, which leads to magnetic levitation. But surprisi
@@ -24,7 +24,7 @@ DESCRIPTION:Superconductivity is a state of matter with many unique proper
  s ago but still remains a mystery. In this talk I will explain some of thi
  s controversial history and some of our ongoing work on this problem.\n\nh
  ttps://smp.uq.edu.au/event/session/17611
-LAST-MODIFIED:20260322T121000Z
+LAST-MODIFIED:20260322T130100Z
 LOCATION:Physics Annexe (06)\, Room: 407
 STATUS:CONFIRMED
 TRANSP:OPAQUE
@@ -33,12 +33,12 @@ BEGIN:VEVENT
 SUMMARY:TBA — Professor Sonja Franke-Arnold (University of Glasgow)
 DTSTART:20260326T010000Z
 DTEND:20260326T020000Z
-DTSTAMP:20260322T121000Z
+DTSTAMP:20260322T130100Z
 UID:17612-20260326@uq-seminar-calendar
 SEQUENCE:0
-CREATED:20260322T121000Z
-DESCRIPTION:To be announced.\n\nhttps://smp.uq.edu.au/event/session/17612
-LAST-MODIFIED:20260322T121000Z
+CREATED:20260322T130100Z
+DESCRIPTION:https://smp.uq.edu.au/event/session/17612
+LAST-MODIFIED:20260322T130100Z
 LOCATION:Building 69\, Room: 208
 STATUS:CONFIRMED
 TRANSP:OPAQUE
@@ -47,12 +47,12 @@ BEGIN:VEVENT
 SUMMARY:TBA — Giovanni Pierobon (University of NSW)
 DTSTART:20260327T010000Z
 DTEND:20260327T020000Z
-DTSTAMP:20260322T121000Z
+DTSTAMP:20260322T130100Z
 UID:17537-20260327@uq-seminar-calendar
 SEQUENCE:0
-CREATED:20260322T121000Z
-DESCRIPTION:To be announced.\n\nhttps://smp.uq.edu.au/event/session/17537
-LAST-MODIFIED:20260322T121000Z
+CREATED:20260322T130100Z
+DESCRIPTION:https://smp.uq.edu.au/event/session/17537
+LAST-MODIFIED:20260322T130100Z
 LOCATION:Building 69\, Room: 305
 STATUS:CONFIRMED
 TRANSP:OPAQUE
@@ -62,12 +62,12 @@ SUMMARY:Momentum and mass entanglement with ultracold metastable helium at
  oms — Dr Sean Hodgman (The Australian National University)
 DTSTART:20260417T010000Z
 DTEND:20260417T020000Z
-DTSTAMP:20260322T121000Z
+DTSTAMP:20260322T130100Z
 UID:17613-20260417@uq-seminar-calendar
 SEQUENCE:0
-CREATED:20260322T121000Z
-DESCRIPTION:To be announced.\n\nhttps://smp.uq.edu.au/event/session/17613
-LAST-MODIFIED:20260322T121000Z
+CREATED:20260322T130100Z
+DESCRIPTION:https://smp.uq.edu.au/event/session/17613
+LAST-MODIFIED:20260322T130100Z
 LOCATION:Physiology Lecture Theatres\, Room: 358
 STATUS:CONFIRMED
 TRANSP:OPAQUE
@@ -76,12 +76,12 @@ BEGIN:VEVENT
 SUMMARY:TBA — Dr Jade Powell (Swinburne University)
 DTSTART:20260424T010000Z
 DTEND:20260424T020000Z
-DTSTAMP:20260322T121000Z
+DTSTAMP:20260322T130100Z
 UID:17614-20260424@uq-seminar-calendar
 SEQUENCE:0
-CREATED:20260322T121000Z
-DESCRIPTION:To be announced.\n\nhttps://smp.uq.edu.au/event/session/17614
-LAST-MODIFIED:20260322T121000Z
+CREATED:20260322T130100Z
+DESCRIPTION:https://smp.uq.edu.au/event/session/17614
+LAST-MODIFIED:20260322T130100Z
 LOCATION:Physiology Lecture Theatres\, Room: 358
 STATUS:CONFIRMED
 TRANSP:OPAQUE
@@ -91,12 +91,12 @@ SUMMARY:Amelia Frank / Superconductivity — Dr Peter Jacobson (University
   of Queensland)
 DTSTART:20260501T010000Z
 DTEND:20260501T020000Z
-DTSTAMP:20260322T121000Z
+DTSTAMP:20260322T130100Z
 UID:17538-20260501@uq-seminar-calendar
 SEQUENCE:0
-CREATED:20260322T121000Z
-DESCRIPTION:To be announced.\n\nhttps://smp.uq.edu.au/event/session/17538
-LAST-MODIFIED:20260322T121000Z
+CREATED:20260322T130100Z
+DESCRIPTION:https://smp.uq.edu.au/event/session/17538
+LAST-MODIFIED:20260322T130100Z
 LOCATION:Building 69\, Room: 305
 STATUS:CONFIRMED
 TRANSP:OPAQUE
@@ -106,10 +106,10 @@ SUMMARY:Extending density functional theory — Associate Professor Tim Go
  uld (Griffith University)
 DTSTART:20260508T010000Z
 DTEND:20260508T020000Z
-DTSTAMP:20260322T121000Z
+DTSTAMP:20260322T130100Z
 UID:17539-20260508@uq-seminar-calendar
 SEQUENCE:0
-CREATED:20260322T121000Z
+CREATED:20260322T130100Z
 DESCRIPTION:Density Functional Theory (DFT) is the workhorse of electronic
   structure theory calculations across physics\, chemistry\, engineering an
  d biology. Its popularity stems from reasonably accurate\, yet cheap\, app
@@ -119,7 +119,7 @@ DESCRIPTION:Density Functional Theory (DFT) is the workhorse of electronic
  lisation' that extends the core theory and approximations into new regimes
   of electronic matter - especially excited state physics.\n\nhttps://smp.u
  q.edu.au/event/session/17539
-LAST-MODIFIED:20260322T121000Z
+LAST-MODIFIED:20260322T130100Z
 LOCATION:Physiology Lecture Theatres (63)\, Room: 358
 STATUS:CONFIRMED
 TRANSP:OPAQUE
@@ -128,12 +128,12 @@ BEGIN:VEVENT
 SUMMARY:TBA — Associate Professor James Roberts (QIMR Berghofer)
 DTSTART:20260515T010000Z
 DTEND:20260515T020000Z
-DTSTAMP:20260322T121000Z
+DTSTAMP:20260322T130100Z
 UID:17540-20260515@uq-seminar-calendar
 SEQUENCE:0
-CREATED:20260322T121000Z
-DESCRIPTION:To be announced.\n\nhttps://smp.uq.edu.au/event/session/17540
-LAST-MODIFIED:20260322T121000Z
+CREATED:20260322T130100Z
+DESCRIPTION:https://smp.uq.edu.au/event/session/17540
+LAST-MODIFIED:20260322T130100Z
 LOCATION:Physiology Lecture Theatres (63)\, Room: 358
 STATUS:CONFIRMED
 TRANSP:OPAQUE
@@ -143,16 +143,16 @@ SUMMARY:Quantum Communication: How Physics Can Secure Information — Dr.
  Josephine Dias (University of Queensland)
 DTSTART:20260522T010000Z
 DTEND:20260522T020000Z
-DTSTAMP:20260322T121000Z
+DTSTAMP:20260322T130100Z
 UID:17541-20260522@uq-seminar-calendar
 SEQUENCE:0
-CREATED:20260322T121000Z
+CREATED:20260322T130100Z
 DESCRIPTION:Quantum communication uses the laws of quantum mechanics to se
  nd information in ways that are fundamentally more secure than classical m
  ethods. In this talk\, we’ll explore how photons and entanglement enable
   tasks like quantum key distribution\, and why loss and noise are central 
  challenges.\n\nhttps://smp.uq.edu.au/event/session/17541
-LAST-MODIFIED:20260322T121000Z
+LAST-MODIFIED:20260322T130100Z
 LOCATION:Hawken Engineering Building (50)\, Room: N202
 STATUS:CONFIRMED
 TRANSP:OPAQUE
@@ -162,10 +162,10 @@ SUMMARY:Label-free and quantum imaging — Professor Irina Kabakova (Unive
  rsity of Technology Sydney)
 DTSTART:20260529T010000Z
 DTEND:20260529T020000Z
-DTSTAMP:20260322T121000Z
+DTSTAMP:20260322T130100Z
 UID:17542-20260529@uq-seminar-calendar
 SEQUENCE:0
-CREATED:20260322T121000Z
+CREATED:20260322T130100Z
 DESCRIPTION:Imaging for biological and biomedical applications is entering
   a new era of label-free detection to eliminate possible toxicity and phot
  odamage to tissues and cells from the use of labels or powerful light sour
@@ -178,7 +178,7 @@ DESCRIPTION:Imaging for biological and biomedical applications is entering
  g modalities developed in my lab with the focus on specific problems in bi
  omedical field such as cancer diagnostics.\n\nhttps://smp.uq.edu.au/event/
  session/17542
-LAST-MODIFIED:20260322T121000Z
+LAST-MODIFIED:20260322T130100Z
 LOCATION:Hawken Engineering Building (50)\, Room: N202
 STATUS:CONFIRMED
 TRANSP:OPAQUE
@@ -188,10 +188,10 @@ SUMMARY:Helping Physics students thrive — Professor Elizabeth Angstmann
  (University of NSW)
 DTSTART:20260320T010000Z
 DTEND:20260320T020000Z
-DTSTAMP:20260322T121000Z
+DTSTAMP:20260322T130100Z
 UID:17536-20260320@uq-seminar-calendar
 SEQUENCE:0
-CREATED:20260322T121000Z
+CREATED:20260322T130100Z
 DESCRIPTION:University education has undergone major shifts over the past 
  five years. COVID‑era disruptions have reduced student attendance\, whil
  e the rise of AI tools has made it easier for students to outsource cognit
@@ -206,7 +206,7 @@ DESCRIPTION:University education has undergone major shifts over the past
  h and fade. Optogenetic approaches require intense illumination that can p
  erturb or damage delicate tissue\, restricting long-term studies.\n\nhttps
  ://smp.uq.edu.au/event/session/17536
-LAST-MODIFIED:20260322T121000Z
+LAST-MODIFIED:20260322T130100Z
 LOCATION:Building 69\, Room: 305
 STATUS:CONFIRMED
 TRANSP:OPAQUE
@@ -216,10 +216,10 @@ SUMMARY:Harnessing time-frequency qudits using integrated nonlinear proces
  ses — Dr Laura Serino (University of Queensland)
 DTSTART:20260313T010000Z
 DTEND:20260313T020000Z
-DTSTAMP:20260322T121000Z
+DTSTAMP:20260322T130100Z
 UID:17535-20260313@uq-seminar-calendar
 SEQUENCE:0
-CREATED:20260322T121000Z
+CREATED:20260322T130100Z
 DESCRIPTION:High-dimensional quantum systems\, or qudits\, offer significa
  nt advantages over qubits\, from increased information capacity to enhance
  d noise resilience and security in quantum communication. While the time-f
@@ -235,7 +235,7 @@ DESCRIPTION:High-dimensional quantum systems\, or qudits\, offer significa
  y distribution\, precise quantum state characterization\, and tests of qua
  ntum complementarity in large Hilbert spaces.\n\nhttps://smp.uq.edu.au/eve
  nt/session/17535
-LAST-MODIFIED:20260322T121000Z
+LAST-MODIFIED:20260322T130100Z
 LOCATION:Building 69\, Room: 305
 STATUS:CONFIRMED
 TRANSP:OPAQUE
@@ -245,10 +245,10 @@ SUMMARY:Diamonds on the brain: Quantum sensors for next generation neurosc
  ience — Professor Lezanne Ooi (University of Wollongong)
 DTSTART:20260306T010000Z
 DTEND:20260306T020000Z
-DTSTAMP:20260322T121000Z
+DTSTAMP:20260322T130100Z
 UID:17534-20260306@uq-seminar-calendar
 SEQUENCE:0
-CREATED:20260322T121000Z
+CREATED:20260322T130100Z
 DESCRIPTION:Neurons are the brain’s fundamental computing units — yet 
  we still don’t fully understand how vast networks of neurons work togeth
  er to generate thought\, memory\, and behaviour. A central challenge in ne
@@ -273,7 +273,7 @@ DESCRIPTION:Neurons are the brain’s fundamental computing units — yet
  y. This work opens a path toward scalable\, long-term imaging approaches t
  hat could reshape how we study—and ultimately treat—neurological disea
  se.\n\nhttps://smp.uq.edu.au/event/session/17534
-LAST-MODIFIED:20260322T121000Z
+LAST-MODIFIED:20260322T130100Z
 LOCATION:Building 69\, Room: 305
 STATUS:CONFIRMED
 TRANSP:OPAQUE
@@ -283,10 +283,10 @@ SUMMARY:Electromagnetism today — Professor Dmitri Sorokin (INFN Padua\,a
  nd Padua University\, Italy)
 DTSTART:20260303T010000Z
 DTEND:20260303T020000Z
-DTSTAMP:20260322T121000Z
+DTSTAMP:20260322T130100Z
 UID:17533-20260303@uq-seminar-calendar
 SEQUENCE:0
-CREATED:20260322T121000Z
+CREATED:20260322T130100Z
 DESCRIPTION:In 1862 Maxwell unified the electric\, magnetic and light phen
  omena within the classical theory of electromagnetic radiation. In 1920s D
  irac put forward the theory of quantum electrodynamics (QED). In 1933-1934
@@ -304,7 +304,7 @@ DESCRIPTION:In 1862 Maxwell unified the electric\, magnetic and light phen
  der how non-linear electromagnetic effects may manifest themselves in phys
  ical phenomena\, such as vacuum birefringence. The latter is still to be o
  bserved experimentally.\n\nhttps://smp.uq.edu.au/event/session/17533
-LAST-MODIFIED:20260322T121000Z
+LAST-MODIFIED:20260322T130100Z
 LOCATION:Building 69\, Room: 208
 STATUS:CONFIRMED
 TRANSP:OPAQUE
@@ -314,10 +314,10 @@ SUMMARY:Cosmology: A Golden Era — Professor Yin-Zhe Ma (Stellenbosch Uni
  versity)
 DTSTART:20260206T010000Z
 DTEND:20260206T020000Z
-DTSTAMP:20260322T121000Z
+DTSTAMP:20260322T130100Z
 UID:17532-20260206@uq-seminar-calendar
 SEQUENCE:0
-CREATED:20260322T121000Z
+CREATED:20260322T130100Z
 DESCRIPTION:Cosmology\, the understanding of the evolution of entire Unive
  rse\, has progressed very quickly in the past several decades with the adv
  ances of modern telescopes. I will give a brief overview of the modern cos
@@ -329,7 +329,7 @@ DESCRIPTION:Cosmology\, the understanding of the evolution of entire Unive
  present the observational frontiers for this (next) decade of cosmology\, 
  highlighting where the new physics may possibly emerge.\n\nhttps://smp.uq.
  edu.au/event/session/17532
-LAST-MODIFIED:20260322T121000Z
+LAST-MODIFIED:20260322T130100Z
 LOCATION:Parnell Building (07)\, Room: 222
 STATUS:CONFIRMED
 TRANSP:OPAQUE
@@ -339,10 +339,10 @@ SUMMARY:Nobel Prize in Chemistry 2025 Colloquium — Professor Ben Powell
  (University of Queensland)
 DTSTART:20251114T010000Z
 DTEND:20251114T020000Z
-DTSTAMP:20260322T121000Z
+DTSTAMP:20260322T130100Z
 UID:17507-20251114@uq-seminar-calendar
 SEQUENCE:0
-CREATED:20260322T121000Z
+CREATED:20260322T130100Z
 DESCRIPTION:The 2025 Nobel prize for chemistry was awarded to Richard Robs
  on\, Sumusu Kitagawa\, and Omar Yaghi “for the development of metal–or
  ganic frameworks”. Richard Robson did this work at the university of Mel
@@ -354,7 +354,7 @@ DESCRIPTION:The 2025 Nobel prize for chemistry was awarded to Richard Robs
  terials and our work to exploit them in the Queensland Quantum Decarbonisa
  tion Alliance. No expertise in chemistry will be required to understand th
  is talk.\n\nhttps://smp.uq.edu.au/event/session/17507
-LAST-MODIFIED:20260322T121000Z
+LAST-MODIFIED:20260322T130100Z
 LOCATION:Prentice Building (42)\, Room: 216
 STATUS:CONFIRMED
 TRANSP:OPAQUE
@@ -364,17 +364,17 @@ SUMMARY:Nobel Prize in Physics 2025 Colloquium — Associate Professor Ark
  ady Fedorov (University of Queensland)
 DTSTART:20251107T010000Z
 DTEND:20251107T020000Z
-DTSTAMP:20260322T121000Z
+DTSTAMP:20260322T130100Z
 UID:17490-20251107@uq-seminar-calendar
 SEQUENCE:0
-CREATED:20260322T121000Z
+CREATED:20260322T130100Z
 DESCRIPTION:The Nobel Prize in Physics 2025 was awarded jointly to John Cl
  arke\, Michel H. Devoret and John M. Martinis "\nfor the discovery of macr
  oscopic quantum mechanical tunnelling and energy quantisation in an electr
  ic circuit\n"\n.\n\nArkady leads the Superconducting Quantum Circuits grou
  p at UQ and works in the area of the Nobel Prize.\n\nhttps://smp.uq.edu.au
  /event/session/17490
-LAST-MODIFIED:20260322T121000Z
+LAST-MODIFIED:20260322T130100Z
 LOCATION:Prentice Building (42)\, Room 216
 STATUS:CONFIRMED
 TRANSP:OPAQUE
@@ -384,10 +384,10 @@ SUMMARY:Predicting nuclear\, atomic and solid-state properties of the heav
  iest atoms — Odile Smits (University of Queensland)
 DTSTART:20251031T010000Z
 DTEND:20251031T020000Z
-DTSTAMP:20260322T121000Z
+DTSTAMP:20260322T130100Z
 UID:17489-20251031@uq-seminar-calendar
 SEQUENCE:0
-CREATED:20260322T121000Z
+CREATED:20260322T130100Z
 DESCRIPTION:Predicting the properties of atoms from first principles is a 
  fascinating challenge at the intersection of quantum theory\, relativity\,
   and many-body physics. In this colloquium I will speak about two branches
@@ -398,7 +398,7 @@ DESCRIPTION:Predicting the properties of atoms from first principles is a
   can be directly compared with extremely accurate experimental data. I wil
  l highlight the motivation\, challenges and accuracy that comes with each 
  of studies.\n\nhttps://smp.uq.edu.au/event/session/17489
-LAST-MODIFIED:20260322T121000Z
+LAST-MODIFIED:20260322T130100Z
 LOCATION:Parnell Building (07)\, Room: 222
 STATUS:CONFIRMED
 TRANSP:OPAQUE
@@ -408,10 +408,10 @@ SUMMARY:The quantum theory of time: from T violation to Lorentz invariance
   — Joan Vaccaro (Griffith University)
 DTSTART:20251024T010000Z
 DTEND:20251024T020000Z
-DTSTAMP:20260322T121000Z
+DTSTAMP:20260322T130100Z
 UID:17488-20251024@uq-seminar-calendar
 SEQUENCE:0
-CREATED:20260322T121000Z
+CREATED:20260322T130100Z
 DESCRIPTION:Time in modern physics remains enigmatic at the deepest level.
   It has an asymmetric direction that points from causes to effects\, low t
  o high entropy\, and small to ever expanding universe\, and is typically s
@@ -425,7 +425,7 @@ DESCRIPTION:Time in modern physics remains enigmatic at the deepest level.
  c boundary conditions. I will describe my attempt to address this\, and sh
  ow how T violation may underlie Lorentz invariance.\n\nhttps://smp.uq.edu.
  au/event/session/17488
-LAST-MODIFIED:20260322T121000Z
+LAST-MODIFIED:20260322T130100Z
 LOCATION:Parnell Building (07)\, Room: 222
 STATUS:CONFIRMED
 TRANSP:OPAQUE
@@ -435,10 +435,10 @@ SUMMARY:Reproducibility and Software in Academia — Marnik Bercx (Paul Sc
  herrer Institut)
 DTSTART:20251017T010000Z
 DTEND:20251017T020000Z
-DTSTAMP:20260322T121000Z
+DTSTAMP:20260322T130100Z
 UID:17487-20251017@uq-seminar-calendar
 SEQUENCE:0
-CREATED:20260322T121000Z
+CREATED:20260322T130100Z
 DESCRIPTION:Reproducibility is a core tenet of science\, yet many publishe
  d results cannot be reproduced—eroding trust and wasting valuable time. 
  Even within research groups\, new students routinely spend days or months 
@@ -453,7 +453,7 @@ DESCRIPTION:Reproducibility is a core tenet of science\, yet many publishe
  ce more broadly: the issues it has\, how these tie into the reproducibilit
  y problem\, and some personal thoughts on what can be done about it.\n\nht
  tps://smp.uq.edu.au/event/session/17487
-LAST-MODIFIED:20260322T121000Z
+LAST-MODIFIED:20260322T130100Z
 LOCATION:Parnell lecture theatre 7-222\, Room: 07-222
 STATUS:CONFIRMED
 TRANSP:OPAQUE
@@ -463,17 +463,17 @@ SUMMARY:Inertia and Inertial Resistance in Relativity Theory — Peter J.
  Riggs (Australian National University)
 DTSTART:20251010T010000Z
 DTEND:20251010T020000Z
-DTSTAMP:20260322T121000Z
+DTSTAMP:20260322T130100Z
 UID:17486-20251010@uq-seminar-calendar
 SEQUENCE:0
-CREATED:20260322T121000Z
+CREATED:20260322T130100Z
 DESCRIPTION:The fundamental nature of inertia remains a major unsolved pro
  blem in physics. A broader concept of ‘resistance to acceleration’ tha
  n used in classical dynamics\, called ‘inertial resistance’\, is quant
  ified for both inertial and non-inertial relativistic motion. It is shown 
  that inertial resistance is more than particle inertia and originates from
   spacetime structure.\n\nhttps://smp.uq.edu.au/event/session/17486
-LAST-MODIFIED:20260322T121000Z
+LAST-MODIFIED:20260322T130100Z
 LOCATION:TBA
 STATUS:CONFIRMED
 TRANSP:OPAQUE
@@ -483,10 +483,10 @@ SUMMARY:Software-ruggedised quantum sensing for secure and accurate naviga
  tion without GPS — Stuart Szigeti (Q-CTRL)
 DTSTART:20250926T010000Z
 DTEND:20250926T020000Z
-DTSTAMP:20260322T121000Z
+DTSTAMP:20260322T130100Z
 UID:17485-20250926@uq-seminar-calendar
 SEQUENCE:0
-CREATED:20260322T121000Z
+CREATED:20260322T130100Z
 DESCRIPTION:GPS has revolutionised positioning and navigation\, with use c
  ases spanning emergency services\, logistics\, aviation\, and agriculture.
   However\, the ubiquity of GPS is a key vulnerability\; recent GPS-denial 
@@ -507,7 +507,7 @@ DESCRIPTION:GPS has revolutionised positioning and navigation\, with use c
  uggedised quantum sensors\, demonstrating the field-readiness of Q-CTRL’
  s quantum navigation solutions.\n\nhttps://smp.uq.edu.au/event/session/174
  85
-LAST-MODIFIED:20260322T121000Z
+LAST-MODIFIED:20260322T130100Z
 LOCATION:TBA
 STATUS:CONFIRMED
 TRANSP:OPAQUE
@@ -518,10 +518,10 @@ SUMMARY:Populations of pulsators: Asteroseismology and population synthesi
  ty of Southern Queensland)
 DTSTART:20250822T010000Z
 DTEND:20250822T020000Z
-DTSTAMP:20260322T121000Z
+DTSTAMP:20260322T130100Z
 UID:17460-20250822@uq-seminar-calendar
 SEQUENCE:0
-CREATED:20260322T121000Z
+CREATED:20260322T130100Z
 DESCRIPTION:The ages of stars are notoriously difficult to determine\, esp
  ecially for young stars that are still shrouded in dust or surrounded by d
  iscs. Here\, every Myr matters\, as we try to probe the processes of plane
@@ -535,7 +535,7 @@ DESCRIPTION:The ages of stars are notoriously difficult to determine\, esp
  eving better age precision\, which approaches 10% for pre-main-sequence st
  ars\, before wrapping up with a few ideas on where this research can break
   new ground.\n\nhttps://smp.uq.edu.au/event/session/17460
-LAST-MODIFIED:20260322T121000Z
+LAST-MODIFIED:20260322T130100Z
 LOCATION:Parnell Building (07)\, Room: 222
 STATUS:CONFIRMED
 TRANSP:OPAQUE
@@ -546,10 +546,10 @@ SUMMARY:Investigating superconductivity for computation and communication
  sity of Science and Technology)
 DTSTART:20250815T003000Z
 DTEND:20250815T013000Z
-DTSTAMP:20260322T121000Z
+DTSTAMP:20260322T130100Z
 UID:17455-20250815@uq-seminar-calendar
 SEQUENCE:0
-CREATED:20260322T121000Z
+CREATED:20260322T130100Z
 DESCRIPTION:Superconductivity is fertile ground for revealing fundamental 
  physics\, yielding five Nobel prizes thus far\, and has enabled myriad app
  lications from sensors to high-resolution medical imaging. A primary featu
@@ -565,7 +565,7 @@ DESCRIPTION:Superconductivity is fertile ground for revealing fundamental
  ia light\, proximity coupling\, curvature and strain\, and consider the fu
  ture of high-capacity\, low-dissipation computing and communication.\n\nht
  tps://smp.uq.edu.au/event/session/17455
-LAST-MODIFIED:20260322T121000Z
+LAST-MODIFIED:20260322T130100Z
 LOCATION:Parnell Building (07)\, Room: 222
 STATUS:CONFIRMED
 TRANSP:OPAQUE
@@ -575,10 +575,10 @@ SUMMARY:Theoretical investigations of the heaviest elements — Professor
  Anastasia Borschevsky (University of Groningen)
 DTSTART:20250808T010000Z
 DTEND:20250808T020000Z
-DTSTAMP:20260322T121000Z
+DTSTAMP:20260322T130100Z
 UID:17453-20250808@uq-seminar-calendar
 SEQUENCE:0
-CREATED:20260322T121000Z
+CREATED:20260322T130100Z
 DESCRIPTION:Since the 1940s\, many artificial elements were discovered\; e
  lements with atomic numbers above 103 are referred to as superheavy elemen
  ts. These artificial elements are produced using nuclear reactors and part
@@ -586,7 +586,7 @@ DESCRIPTION:Since the 1940s\, many artificial elements were discovered\; e
  scopic and chemical properties are studied in challenging experiments that
   push the limits of our knowledge of electronic structure and probe the ex
  treme effects of relativity.\n\nhttps://smp.uq.edu.au/event/session/17453
-LAST-MODIFIED:20260322T121000Z
+LAST-MODIFIED:20260322T130100Z
 LOCATION:Parnell Building (07)\, Room: 222
 STATUS:CONFIRMED
 TRANSP:OPAQUE
@@ -597,10 +597,10 @@ SUMMARY:Inferring properties of dark energy from the large scale structure
  Science Institute)
 DTSTART:20250620T020000Z
 DTEND:20250620T030000Z
-DTSTAMP:20260322T121000Z
+DTSTAMP:20260322T130100Z
 UID:17417-20250620@uq-seminar-calendar
 SEQUENCE:0
-CREATED:20260322T121000Z
+CREATED:20260322T130100Z
 DESCRIPTION:The structure of galaxies we see in the sky today was seeded i
  n the very early universe. The evolution from initial tiny density perturb
  ations to the cosmic web of voids\, clusters and filaments of galaxies tel
@@ -613,7 +613,7 @@ DESCRIPTION:The structure of galaxies we see in the sky today was seeded i
  ng these new and upcoming data\, we may be able to distinguish between the
   effects of basic cosmological constant dark energy or modifications to ou
  r theory or gravity.\n\nhttps://smp.uq.edu.au/event/session/17417
-LAST-MODIFIED:20260322T121000Z
+LAST-MODIFIED:20260322T130100Z
 LOCATION:Steele Building (03)\, Room: 309
 STATUS:CONFIRMED
 TRANSP:OPAQUE
@@ -623,10 +623,10 @@ SUMMARY:Engineering High Performance Qubits in Superconducting Circuits
  — Xanthe Croot (The University of Sydney)
 DTSTART:20250530T010000Z
 DTEND:20250530T020000Z
-DTSTAMP:20260322T121000Z
+DTSTAMP:20260322T130100Z
 UID:17379-20250530@uq-seminar-calendar
 SEQUENCE:0
-CREATED:20260322T121000Z
+CREATED:20260322T130100Z
 DESCRIPTION:Superconducting circuits are a promising platform for quantum 
  computing. With long coherence times\, strong light-matter interactions on
  -chip\, circuit design flexibility and relative ease of fabrication\, supe
@@ -638,7 +638,7 @@ DESCRIPTION:Superconducting circuits are a promising platform for quantum
   first\, the development of new geometries\, materials and processing tech
  niques\, and second\, new qubit encodings engineered with quantum error co
  rrection protocols in mind.\n\nhttps://smp.uq.edu.au/event/session/17379
-LAST-MODIFIED:20260322T121000Z
+LAST-MODIFIED:20260322T130100Z
 LOCATION:Steele Building (03)\, Room: 309
 STATUS:CONFIRMED
 TRANSP:OPAQUE
@@ -647,12 +647,12 @@ BEGIN:VEVENT
 SUMMARY:TBA — Matt Reeves (CSIRO)
 DTSTART:20250523T010000Z
 DTEND:20250523T020000Z
-DTSTAMP:20260322T121000Z
+DTSTAMP:20260322T130100Z
 UID:17378-20250523@uq-seminar-calendar
 SEQUENCE:0
-CREATED:20260322T121000Z
+CREATED:20260322T130100Z
 DESCRIPTION:https://smp.uq.edu.au/event/session/17378
-LAST-MODIFIED:20260322T121000Z
+LAST-MODIFIED:20260322T130100Z
 LOCATION:Steel Building (03)\, Room: 309
 STATUS:CONFIRMED
 TRANSP:OPAQUE
@@ -662,10 +662,10 @@ SUMMARY:All objects and some questions — Charley Lineweaver (The Austral
  ian National University (Canberra))
 DTSTART:20250509T010000Z
 DTEND:20250509T020000Z
-DTSTAMP:20260322T121000Z
+DTSTAMP:20260322T130100Z
 UID:17376-20250509@uq-seminar-calendar
 SEQUENCE:0
-CREATED:20260322T121000Z
+CREATED:20260322T130100Z
 DESCRIPTION:I will present a plot of all the objects in the universe and d
  escribe how objects condensed out of the hot big bang \nas background tem
  peratures and densities decreased with the expansion of the universe.\n\nI
@@ -675,7 +675,7 @@ DESCRIPTION:I will present a plot of all the objects in the universe and d
  s:\n\nIs the universe a black hole? \nDid the universe start as the smalle
  st black hole  possible -- a Planck-mass instanton? \nAre instantons the 
  highest energy gamma rays?\n\nhttps://smp.uq.edu.au/event/session/17376
-LAST-MODIFIED:20260322T121000Z
+LAST-MODIFIED:20260322T130100Z
 LOCATION:Steele Building (03)\, Room: 309
 STATUS:CONFIRMED
 TRANSP:OPAQUE
@@ -684,10 +684,10 @@ BEGIN:VEVENT
 SUMMARY:Axion Dark Matter — Ciaran O'Hare (The University of Sydney)
 DTSTART:20250502T010000Z
 DTEND:20250502T020000Z
-DTSTAMP:20260322T121000Z
+DTSTAMP:20260322T130100Z
 UID:17375-20250502@uq-seminar-calendar
 SEQUENCE:0
-CREATED:20260322T121000Z
+CREATED:20260322T130100Z
 DESCRIPTION:A hypothetical particle called the axion could well be the nex
  t elementary particle we discover. The reason for believing the axion shou
  ld exist is because it would solve two outstanding problems in physics at 
@@ -705,7 +705,7 @@ DESCRIPTION:A hypothetical particle called the axion could well be the nex
  ave the potential to hinder our attempts to discover the axion even if it 
  exists (as well as some new opportunities that could potentially make this
   discovery occur sooner).\n\nhttps://smp.uq.edu.au/event/session/17375
-LAST-MODIFIED:20260322T121000Z
+LAST-MODIFIED:20260322T130100Z
 LOCATION:Steele Building (03)\, Room: 309
 STATUS:CONFIRMED
 TRANSP:OPAQUE
@@ -716,10 +716,10 @@ SUMMARY:Bringing quantum to life: the Australian Research Council Centre o
  ensland)
 DTSTART:20250411T010000Z
 DTEND:20250411T020000Z
-DTSTAMP:20260322T121000Z
+DTSTAMP:20260322T130100Z
 UID:17374-20250411@uq-seminar-calendar
 SEQUENCE:0
-CREATED:20260322T121000Z
+CREATED:20260322T130100Z
 DESCRIPTION:Quantum technologies\, like quantum computers and quantum sens
  ors\, allow us to see things that are otherwise invisible and to perform c
  omputations that would otherwise be impossible. This promises a deep trans
@@ -737,7 +737,7 @@ DESCRIPTION:Quantum technologies\, like quantum computers and quantum sens
  f quantum and biotechnology. In this Colloquium I aim to introduce you to 
  quantum biotechnology\, giving examples of active research in the Centre.\
  n\nhttps://smp.uq.edu.au/event/session/17374
-LAST-MODIFIED:20260322T121000Z
+LAST-MODIFIED:20260322T130100Z
 LOCATION:Steele Building (03)\, Room: 309
 STATUS:CONFIRMED
 TRANSP:OPAQUE
@@ -747,10 +747,10 @@ SUMMARY:Collective behaviours in crystals of switchable molecules — Ben
  Powell (University of Queensland)
 DTSTART:20250404T010000Z
 DTEND:20250404T020000Z
-DTSTAMP:20260322T121000Z
+DTSTAMP:20260322T130100Z
 UID:17371-20250404@uq-seminar-calendar
 SEQUENCE:0
-CREATED:20260322T121000Z
+CREATED:20260322T130100Z
 DESCRIPTION:Switches are the bedrock of modern digital technology. So sing
  le molecules that can be switched between two quantum states have enormous
   promise. In this talk I will introduce spin crossover materials\, which c
@@ -763,7 +763,7 @@ DESCRIPTION:Switches are the bedrock of modern digital technology. So sing
   Finally\, I will share predictions of a phase of matter that hosts emerge
  nt gauge fields and fractionalised excitations\, and might emerge in spin 
  crossover materials.\n\nhttps://smp.uq.edu.au/event/session/17371
-LAST-MODIFIED:20260322T121000Z
+LAST-MODIFIED:20260322T130100Z
 LOCATION:Steele Building (03)\, Room: 309
 STATUS:CONFIRMED
 TRANSP:OPAQUE
@@ -773,10 +773,10 @@ SUMMARY:Quantum emission from engineered defects in hexagonal boron nitrid
  e — Mehran Kianinia (University of Technology\, Sydney)
 DTSTART:20250328T010000Z
 DTEND:20250328T020000Z
-DTSTAMP:20260322T121000Z
+DTSTAMP:20260322T130100Z
 UID:17372-20250328@uq-seminar-calendar
 SEQUENCE:0
-CREATED:20260322T121000Z
+CREATED:20260322T130100Z
 DESCRIPTION:Solid-state quantum light sources are emerging as promising ca
  ndidates for various quantum technologies. Among them\, optically active p
  oint defects in hexagonal boron nitride (hBN) have garnered significant at
@@ -796,7 +796,7 @@ DESCRIPTION:Solid-state quantum light sources are emerging as promising ca
  uantum emitters in hBN by establishing a fundamental understanding and a d
  eterministic approach for generating defects with optimal optical properti
  es.\n\nhttps://smp.uq.edu.au/event/session/17372
-LAST-MODIFIED:20260322T121000Z
+LAST-MODIFIED:20260322T130100Z
 LOCATION:Steele Building (03)\, Room: 309
 STATUS:CONFIRMED
 TRANSP:OPAQUE
