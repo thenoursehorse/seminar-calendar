@@ -1,0 +1,23 @@
+[project]
+name = "uq-seminar-calendar"
+version = "1.0.0"
+description = "Scrapes UQ SMP seminar pages and generates .ics calendar files"
+requires-python = ">=3.12"
+dependencies = [
+    "beautifulsoup4>=4.12,<5",
+    "lxml>=5.0,<6",
+    "requests>=2.31,<3",
+    "icalendar>=5.0,<7",
+]
+
+[dependency-groups]
+dev = [
+    "pytest>=7.0,<9",
+    "freezegun>=1.2,<2",
+    "ruff>=0.15.7",
+]
+
+[tool.pytest.ini_options]
+markers = [
+    "live: marks tests that hit the live UQ website (deselect with '-m \"not live\"')",
+]

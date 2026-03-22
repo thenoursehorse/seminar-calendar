@@ -1,0 +1,74 @@
+name: Update Calendar
+
+on:
+  schedule:
+    - cron: "0 3 * * *"
+  workflow_dispatch:
+
+concurrency:
+  group: calendar-update
+  cancel-in-progress: true
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+
+      - uses: astral-sh/setup-uv@0c5e2b8115b80b4c7c5ddf6ffdd634974642d182 # v5.4.1
+        with:
+          version: "0.6.12"
+
+      - name: Install dependencies
+        run: uv sync
+
+      - name: Run unit tests
+        run: uv run pytest -m "not live" --tb=short -q
+
+      - name: Run pipeline
+        id: run_pipeline
+        continue-on-error: true
+        run: uv run python -m src.main > pipeline-summary.txt
+
+      - name: Check for content changes and commit
+        run: |
+          content_changed=false
+          for ics_file in docs/*.ics; do
+            if [ ! -f "$ics_file" ]; then continue; fi
+            if ! python3 -c "
+          import sys, re, subprocess
+          f = sys.argv[1]
+          def strip_dtstamp(text):
+              text = re.sub(r'\r?\n[ \t]', '', text)
+              text = text.replace('\r\n', '\n').replace('\r', '\n')
+              return '\n'.join(l for l in text.splitlines() if not l.startswith('DTSTAMP'))
+          try:
+              old = subprocess.run(['git', 'show', f'HEAD:{f}'], capture_output=True, text=True)
+              if old.returncode != 0: sys.exit(1)
+              if strip_dtstamp(old.stdout) != strip_dtstamp(open(f).read()):
+                  sys.exit(1)
+          except Exception:
+              sys.exit(1)
+          " "$ics_file" 2>/dev/null; then
+              content_changed=true
+              git add "$ics_file"
+            fi
+          done
+
+          if [ "$content_changed" = true ]; then
+            git config user.name "github-actions[bot]"
+            git config user.email "github-actions[bot]@users.noreply.github.com"
+            summary=$(cat pipeline-summary.txt 2>/dev/null || echo "unknown")
+            git commit -m "Update calendars: $summary"
+            git push
+          else
+            echo "No content changes detected"
+          fi
+
+      - name: Fail workflow if orchestrator had errors
+        if: steps.run_pipeline.outcome == 'failure'
+        run: exit 1
