@@ -238,16 +238,11 @@ def parse_session_page(html: bytes, event: Event) -> Event:
                 f"start {event.start}, session page start {session_start}"
             )
 
-    # scope to main content area for speaker/abstract
-    main_content = soup.find("div", class_="layout-region__main")
-    if main_content is None:
-        main_content = soup
-
     # speaker/affiliation resolution from session page body
     new_speaker = event.speaker
     new_affiliation = event.affiliation
 
-    body_field = main_content.find("div", class_="field-name-field-uq-session-body")
+    body_field = soup.find("div", class_="field-name-field-uq-session-body")
     if body_field and (event.speaker is None or event.affiliation is None):
         field_item = body_field.find("div", class_="field-item")
         if field_item:
