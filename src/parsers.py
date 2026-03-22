@@ -616,7 +616,28 @@ def _extract_abstract(body_field: Tag) -> str | None:
 
     result = "\n\n".join(paragraphs)
     # placeholder normalization
-    if result.lower().strip() in ("tba", "to be announced", "tbc"):
+    normalized = re.sub(r"[\s.!,;:]+$", "", result.strip().lower())
+    if normalized in (
+        "tba",
+        "tbc",
+        "tbd",
+        "n/a",
+        "none",
+        "pending",
+        "to be announced",
+        "to be confirmed",
+        "to be determined",
+        "abstract tba",
+        "abstract tbc",
+        "abstract to be announced",
+        "abstract to be confirmed",
+        "title tba",
+        "title to be announced",
+        "not yet available",
+        "details to follow",
+        "coming soon",
+        "check back later",
+    ):
         return None
     return result
 

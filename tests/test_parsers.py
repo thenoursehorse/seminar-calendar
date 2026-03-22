@@ -1,6 +1,7 @@
 from datetime import date, datetime
 from pathlib import Path
 
+import pytest
 from freezegun import freeze_time
 
 from src.parsers import parse_main_page, parse_session_page
@@ -314,9 +315,20 @@ class TestParseSessionPage:
         assert result.speaker == "Main Page Speaker"
         assert result.affiliation == "Main Uni"
 
-    def test_tba_abstract_returns_none(self):
+    @pytest.mark.parametrize(
+        "text",
+        [
+            "TBA",
+            "To be announced.",
+            "Abstract TBA",
+            "N/A",
+        ],
+    )
+    def test_placeholder_abstract_returns_none(self, text):
+        html = self._load("session_tba_abstract.html")
+        html = html.replace(b"<p>TBA</p>", f"<p>{text}</p>".encode())
         event = make_event(session_id="10002", date=date(2026, 3, 30))
-        result = parse_session_page(self._load("session_tba_abstract.html"), event)
+        result = parse_session_page(html, event)
         assert result.abstract is None
 
     def test_missing_venue_still_enriched(self):
