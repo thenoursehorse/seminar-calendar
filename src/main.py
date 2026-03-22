@@ -153,7 +153,7 @@ def run_pipeline(
 
 
 def main() -> None:
-    parser = argparse.ArgumentParser(description="UQ Seminar Calendar Generator")
+    parser = argparse.ArgumentParser(description="UQ SMP Seminar Calendar Generator")
     parser.add_argument(
         "--dry-run", action="store_true", help="Run without writing files"
     )
